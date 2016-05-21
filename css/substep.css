@@ -34,9 +34,11 @@ a, a:visited {
 
 h1 {
   font-size: 2.2rem;
-  font-weight: bold;
-  color: rgb(100, 135, 195);
+  color: #383838;
   border-bottom: 1px solid #C8C8C8;
+  width:100%;
+  position: absolute;
+  top: -100px;
 }
 
 
@@ -201,10 +203,11 @@ ul.boring-list {
 
     width: 32px;
     height: 32px;
-    padding: 8px;
+   
+ padding: 8px;
 
-    background: #fe6d5c;
-    border: 2px solid #fe6d5c;
+    background: #009846;
+    border: 2px solid #009846;
     color: #FFF;
     text-align: center;
 

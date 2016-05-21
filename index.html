@@ -16,137 +16,72 @@
   <!-- Anything handled by impress.js must be inside this #impress div -->
   <div id="impress">
 
-    <!-- 
+   
+    <div id="introduction" class="step" data-x="0" data-y="0" style="width:600px; margin: auto; ">
 
-      Here is a regular impress.js step.  RTFM on impress.js to understand how this works, 
-      but the TL;DR is the data-FOO properties are telling impress where to position each step.
-      Adding class="step" is what lets impress.js know this is a step in your presentation 
-
-    -->
-    <div id="introduction" class="step" data-x="0" data-y="0">
-      <!--<h1 style="position: absolute; top: -100px; left: 30px; font-size: 64px; color: #333;">Пътуване във времето</h1>-->
-	  <img class="substep" src="img/logo .png" style="position: absolute; top: -300px; left: 100px;" width="600"/>
-	  <!--<p style="position: absolute; top: 10px; left: 380px; color: #333; font-size: 22px;" class="substep">(неозвучен от Морган Фрийман)</p>-->
+	  <img class="substep" src="img/logo .png" style="padding: 0; margin:0;" width="100%"/>
+	
     </div>
 
-    <!-- 
-      
-      This where the money gets made.  By adding class="substep" to the list elements, they
-      become substeps for impress.js to navigate.  They do not understand any of the data-FOO 
-      properties.  All that happens is impress.js adds 'future', 'present', 'active', and 'past'
-      to the substep elements, almost exactly the way impress.js handles steps.
 
-      The almost part is around the 'active' class.  Substeps stay 'active' one you have been 
-      over them.  A normal 'step' is only active when it's 'present'.
-
-    -->
-    <div id="can-haz" class="step" data-x="1200" data-y="1500" data-scale="1.5" data-rotate="90">
-	<h1 style="position: absolute; top: -350px; left: 270px; font-size: 52px; color: #333; font-weight: 100;">Проблем</h1>
-	<span style="position: absolute; top: -310px; left: 1020px;" class="numberCircle">1</span>
-	<img class="substep" src="img/anim1.gif" style="position: absolute; top: -100px; left: -70px;" width="900" />
+    <div id="can-haz" class="step" data-x="1200" data-y="1500" data-scale="1.5" data-rotate="90" style="width:1000px; padding:0; margin: auto; text-align: center; ">
+	
+	<h1 style=" font-size: 52px; color: #383838; font-weight: 100;">Проблем </h1>
+	<span style=" position: absolute; top: -50px; right:-50px;" class="numberCircle">1</span>
+	<img class="substep" src="img/anim1.gif" style="position:reative; padding-top: 70px; margin:0px; width: 100%" />
 	   
-		<!--Сфери на приложение: охрана и видеонаблюдение, спасителни служби, инспекция на сгради и съоръжения, фотография, анализ на обработваеми земи;-->
 	 
     </div>
 
-    <!-- 
-
-      Look, ma!  Another regular step!  This is here to illustrate that you can mix substeps into a
-      a regular flow and the navigation makes sense.  Going backwark, the substeps will get played
-      back, and the 'active' class will be removed when they return to being 'future' substeps.
-
-    -->
-    <div id="or-not" class="step" data-x="250" data-y="3000" data-scale="2" data-rotate="180">
-      <!--<h1 style="position: absolute; top: -350px; left: 320px; font-size: 52px; color: #333; font-weight: 100;">Екипът</h1>
-	  <span style="position: absolute; top: -310px; left: 1020px;" class="numberCircle">2</span>
-	  		<img class="substep" src="img/prof1.png" style="position: absolute; top: -200px; left: 100px;" width="800" />
-			<img class="substep" src="img/prof2.png" style="position: absolute; top: 0px; left: 100px;" width="800" />
-			<img class="substep" src="img/prof3.png" style="position: absolute; top: 200px; left: 100px;" width="800" />
-   -->
-	<h1 style="position: absolute; top: -350px; left: 300px; font-size: 52px; color: #333; font-weight: 100;">Продукт</h1>
-	<span style="position: absolute; top: -310px; left: 1020px;" class="numberCircle">2</span>
-	<img class="substep" src="img/animaciq2.gif" style="position: absolute; top: -100px; left: -50px;" width="900" />
+	
+    <div id="or-not" class="step" data-x="250" data-y="3000" data-scale="2" data-rotate="180" style="width:1000px; padding:0; margin: auto; text-align: center;">
+	<h1 style=" font-size: 52px; color: #383838; font-weight: 100;">Продукт</h1>
+	<span style="position: absolute; top: -50px; right:-50px;" class="numberCircle">2</span>
+	<img class="substep" src="img/animaciq2.gif" style="position:reative; padding-top: 70px; margin:0px; width: 100%" />
    </div>
 
-    <!--
-
-      By now you get it.  I'll just wait quietly while YOU tell ME how this step works. 
-      Hint: all you have to do is add a CSS classname...
-      
-    -->
-    <div id="try-back" class="step" data-x="-1200" data-y="1500" data-scale="1.5" data-rotate="270">
-	<h1 style="position: absolute; top: -350px; left: 180px; font-size: 52px; color: #333; font-weight: 100;">Добавена стойност</h1>
-	<span style="position: absolute; top: -310px; left: 1020px;" class="numberCircle">3</span>
-	<img class="substep" src="img/anim.gif" style="position: absolute; top: -100px; left: -70px;" width="900" />
+  
+    <div id="try-back" class="step" data-x="-1200" data-y="1500" data-scale="1.5" data-rotate="270"  style="width:1000px; padding:0; margin: auto; text-align: center; ">
+	<h1 style=" font-size: 52px; color: #383838; font-weight: 100;">Добавена стойност</h1>
+	<span style="position: absolute; top: -50px; right:-50px;"" class="numberCircle">3</span>
+	<img class="substep" src="img/anim.gif" style="position:reative; padding-top: 70px; margin:0px; width: 100%" />
     </div>
 
-    <!--
-
-     See how easy that was?  Booya!  Feel free to give me mad props for making
-     the world a better place to live.  Or just say 'hi'!  Or don't.
-
-   -->
-    <div id="outroduction" class="step" data-x="-1500" data-y="0">
-    <h1 style="position: absolute; top: -350px; left: 320px; font-size: 52px; color: #333; font-weight: 100;">Пазар</h1>
-	<span style="position: absolute; top: -310px; left: 1020px;" class="numberCircle">4</span>
-	<!--<h1 style="position: absolute; top: -350px; left: 370px; font-size: 52px; color: #333; font-weight: 100;">Пазар</h1>
-	<span style="position: absolute; top: -310px; left: 1020px;" class="numberCircle">4</span>-->
-	<img class="substep" src="img/pazar.jpg" style="position: absolute; top: -250px; left: 0px;" width="900" />
+  
+    <div id="outroduction" class="step" data-x="-1500" data-y="0" style="width:1000px; padding:0; margin: auto; text-align: center; ">
+    <h1 style=" font-size: 52px; color: #383838; font-weight: 100;">Пазар</h1>
+	<span style="position: absolute; top: -50px; right:-50px;" class="numberCircle">4</span>
+	<img class="substep" src="img/pazar.jpg" style="position:reative; padding-top: 70px; margin:0px; width: 100%"/>
     </div>
 	
-	<div id="but" class="step" data-x="-1800" data-y="-1300" data-rotate="90">
-      <h1 style="position: absolute; top: -350px; left: 270px; font-size: 52px; color: #333; font-weight: 100;">Бизнес модел</h1>
-		<span style="position: absolute; top: -310px; left: 1020px;" class="numberCircle">5</span>
-		<img class="substep" src="img/BIZNES.jpg" style="position: absolute; top: -250px; left: 0px;" width="900" />
+	<div id="but" class="step" data-x="-1800" data-y="-1300" data-rotate="90" style="width:1000px; padding:0; margin: auto; text-align: center; ">
+      <h1 style=" font-size: 52px; color: #383838; font-weight: 100;">Бизнес модел</h1>
+		<span style="position: absolute; top: -50px; right:-50px;" class="numberCircle">5</span>
+		<img class="substep" src="img/BIZNES.jpg" style="position:reative; padding-top: 70px; margin:0px; width: 100%"/>
     </div>
 	
-	<div id="first" class="step" data-x="-2500" data-y="-2600" data-rotate="90">
-<h1 style="position: absolute; top: -350px; left: 320px; font-size: 52px; color: #333; font-weight: 100;">Екипът</h1>
-	  <span style="position: absolute; top: -310px; left: 1020px;" class="numberCircle">6</span>
-	  		<img class="substep" src="img/nie.jpg" style="position: absolute; top: -250px; left: 0px;" width="900" />
+	<div id="first" class="step" data-x="-2500" data-y="-2600" data-rotate="90" style="width:1000px; padding:0; margin: auto; text-align: center; ">
+<h1 style=" font-size: 52px; color: #383838; font-weight: 100;">Екипът</h1>
+	  <span style="position: absolute; top: -50px; right:-50px;" class="numberCircle">6</span>
+	  		<img class="substep" src="img/nie.jpg" style="position:reative; padding-top: 70px; margin:0px; width: 100%" />
 	</div>
 	
-	<div id="first2" class="step" data-x="-3200" data-y="500" data-rotate="90">
-      <h1 style="position: absolute; top: -350px; left: 210px; font-size: 52px; color: #333; font-weight: 100;">Досегашен прогрес</h1>
-		<span style="position: absolute; top: -310px; left: 1020px;" class="numberCircle">7</span>
-		<img class="substep" src="img/put.jpg" style="position: absolute; top: -250px; left: 0px;" width="900" />
+	<div id="first2" class="step" data-x="-3200" data-y="500" data-rotate="90" style="width:1000px; padding:0; margin: auto; text-align: center; ">
+      <h1 style=" font-size: 52px; color: #383838; font-weight: 100;">Досегашен прогрес</h1>
+		<span style="position: absolute; top: -50px; right:-50px;" class="numberCircle">7</span>
+		<img class="substep" src="img/put.jpg" style="position:reative; padding-top: 70px; margin:0px; width: 100%" />
     </div>
 	
-	<div id="second" class="step" data-x="-4200" data-y="1500" data-scale="1.5" data-rotate="90">
-      <h1 style="position: absolute; top: -350px; left: 180px; font-size: 52px; color: #333; font-weight: 100;">От какво се нуждаем</h1>
-		<span style="position: absolute; top: -310px; left: 1020px;" class="numberCircle">8</span>
-		<img class="substep" src="img/iskam.jpg" style="position: absolute; top: -250px; left: -0px;" width="900" />
+	<div id="second" class="step" data-x="-4200" data-y="1500" data-scale="1.5" data-rotate="90" style="width:1000px; padding:0; margin: auto; text-align: center; ">
+      <h1 style=" font-size: 52px; color: #383838; font-weight: 100;">От какво се нуждаем</h1>
+		<span style="position: absolute; top: -50px; right:-50px;" class="numberCircle">8</span>
+		<img class="substep" src="img/iskam.jpg" style="position:reative; padding-top: 70px; margin:0px; width: 100%" />
     </div>
 	
-	<!--<div id="third" class="step" data-x="-6000" data-y="2600" data-scale="1.5" data-rotate="90">
-      <h1 style="position: absolute; top: -350px; left: 180px; font-size: 42px; color: #333; text-align: center;">Теория 3: Мултивселена</h1>
-		<h2 class="substep" style="position: absolute; top: -260px; left: 90px; font-size: 28px; font-weight: 300; color: #333; text-align: justify;">ако се върнете назад във времето и убиете дядо си..</h2>
-		<img class="substep" src="img/rip.png" style="position: absolute; top: 100px; left: 50px;" width="220" />
-		<h2 class="substep" style="position: absolute; top: -180px; left: 50px; font-size: 28px; font-weight: 300; color: #333; text-align: justify;">..нищо няма да се случи, защото ще сте създали нова времева линия, различна от старата..</h2>
-		<img class="substep" src="img/timeline.png" style="position: absolute; top: 80px; left: 600px;" width="150" />
-		<h2 class="substep" style="position: absolute; top: -60px; left: 50px; font-size: 28px; font-weight: 300; color: #333; text-align: justify;">..за съжаление няма да можете да се върнете на първоначалната..</h2>
-    </div>
-	
-	<div id="thanks" class="step" data-x="-8000" data-y="4000" data-scale="1.5" data-rotate="90">
-      <h1 style="position: absolute; top: -300px; left: 160px; font-size: 42px; color: #333; text-align: center;">Благодаря за вниманието</h1>
-		<img class="substep" src="img/public.png" style="position: absolute; top: -50px; left: 100px;" width="670" />
-		<img class="substep" src="img/speech3.png" style="position: absolute; top: -160px; left: 350px;" width="250" />
-    </div>-->
 
-    <!--
-
-      If you use this, and you like it, and you notice my pull request never makes it back into the
-      the upstream impress.js, maybe just give them a little nudge.  I'd rather not maintain an
-      impress.js fork going forward.
-
-    -->
-
-  </div> <!-- end impress div -->
-
- <!-- 
-  Again, RTFM on impress.js to know everything else... like what this little script 
-  is doing. It's kinda important!
- -->
+  </div> 
+  
+  
   <script src="js/impress.js"></script>
   <script>impress().init();</script>
 
